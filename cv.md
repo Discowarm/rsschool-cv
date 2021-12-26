@@ -1,8 +1,8 @@
-#Vadim Zmushka
+# Vadim Zmushka
 
 ----
 
-##My Contact Info
+## My Contact Info
 
 ----
 
