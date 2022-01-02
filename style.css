@@ -1,3 +1,141 @@
-.color{
-    background-color: aqua;
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*min-height: 100%;*/
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
 }
+
+.header{
+    background-color: #008080;
+    width: 100%;
+    height: 60px;
+    
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 200;
+}
+
+.nav-link {
+    padding: 0 20px;
+    /*line-height: 60px;*/
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: #cb18c9;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    display: flex;
+    background-color: white;
+    /*width: auto;*/
+    justify-content: flex-start;
+    /*align-items: flex-start;*/
+    
+}
+
+ .photo{
+    border-radius: 50%;
+     /*margin-top: 50px;*/
+     
+    
+    
+}
+
+.my-name{
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    color: rgb(107, 69, 69);
+    margin: 100px;
+
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+  
+.section {
+    width: 70%;
+}
+
+@media (max-width: 768px) {
+.section {
+    width: 100%;
+}
+}
+
+ .footer{
+     background-color: #008080;
+     /*height: 60px;*/
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:  row-reverse;
+}
+
+.footer-link{
+    text-decoration: none;
+    padding: 0 20px;
+    /*line-height: 60px;*/
+    font-size: 16px;
+    color: white;
+    transition: color 0.5s;
+        
+}
+
+.footer-link:hover {
+    color: #cb18c9;
+}
+
+h2{
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(107, 69, 69);
+}
+ 
+p{
+    margin-left: 100px;
+}
+
+.list-Skills{
+    margin-left: 100px;
+}
+
+.list-Education{
+    margin-left: 100px;
+}
+
